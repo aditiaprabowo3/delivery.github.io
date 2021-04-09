@@ -14,8 +14,8 @@ ul li {
     border-radius: 20px;
 }
 .card-features:hover {
-    box-shadow: 0 0 80px rgba(0, 0, 0, 0.125) !important;
-    transition: all.7s ease-in;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.125) !important;
+    transition: all.7s ease;
 }
 
 @media (min-width: 300px) { 
@@ -27,11 +27,11 @@ ul li {
         padding: 16px 0;
     }
     .section-banner .text-content input {
-        padding: 14px 175px 14px 15px;
+        padding: 14px 110px 14px 15px;
         margin-bottom: 20px;
     }
     .section-banner .text-content button {
-        padding: 11.3px 148px;
+        padding: 11.3px 120px;
     }
     .section-banner .text-content {
         display: flex;
@@ -62,7 +62,7 @@ ul li {
 /* small device (landscape phones, 400px and up */
 @media (min-width: 400px) { 
     .section-banner .text-content h1 {
-        font-size: 45px;
+        font-size: 50px;
     }
     .section-banner .text-content p {
         font-size: 15px;
@@ -202,10 +202,10 @@ ul li {
         padding: 11.3px 27px;
     }
     .section-banner .img-content img {
-        width: 126%;
-        height: 126%;
-        margin-left: -100px;
-        margin-top: -100px;
+        width: 123%;
+        height: 123%;
+        margin-left: -130px;
+        margin-top: -80px;
     }
     .navbar ul li a:hover::after {
         content: '';
@@ -244,10 +244,10 @@ ul li {
         padding: 11.3px 27px;
     }
     .section-banner .img-content img {
-        width: 125%;
-        height: 125%;
+        width: 120%;
+        height: 120%;
         margin-left: -100px;
-        margin-top: -110px;
+        margin-top: -100px;
     }
     .navbar ul li a:hover::after {
         content: '';
